@@ -1,5 +1,19 @@
-# SAKIP Skill Suite
 
+# SAKIP Skill Suite
+![SAKIP Skill Suite Header](img/header.png)
+<p> </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Claude%20AI-050505?style=for-the-badge&logo=anthropic&logoColor=F1F0E8" alt="Claude AI Platform">
+  <img src="https://img.shields.io/badge/Anthropic-Skills%20Suite-D97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic Skills">
+  <img src="https://img.shields.io/badge/SAKIP--Rating-Target%20AA-059669?style=for-the-badge&logo=target" alt="SAKIP AA Target">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/username/repo?style=flat-square&color=blue" alt="Release Version">
+  <img src="https://img.shields.io/github/license/username/repo?style=flat-square&color=orange" alt="License">
+  <img src="https://img.shields.io/github/stars/username/repo?style=flat-square&color=yellow" alt="Stars">
+  <img src="https://img.shields.io/github/issues/username/repo?style=flat-square&color=red" alt="Open Issues">
+</p>
 Satu paket skill yang saling berkolaborasi untuk mengoptimalkan dokumen Sistem Akuntabilitas Kinerja Instansi Pemerintah (SAKIP) secara berkelanjutan hingga mencapai predikat AA.
 
 ## Daftar Skill
