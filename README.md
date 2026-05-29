@@ -28,6 +28,10 @@ Satu paket skill yang saling berkolaborasi untuk mengoptimalkan dokumen Sistem A
 
 5. **sakip-improver**: Penggerak loop perbaikan. Mengubah daftar gap dan rekomendasi LHE menjadi rencana aksi terukur dan tersekuens untuk mengejar target predikat. Memicu siklus perbaikan lewat perencana & pelaporan.
 
+<p align="center">
+  <img src="img/skema.jpg" alt="Skema Kolaborasi SAKIP Skill Suite" width="100%">
+</p>
+
 ## Mekanisme Kolaborasi
 
 Skill suite ini dirancang agar setiap bagian dapat bekerja sama melalui satu **kontrak data bersama** berformat JSON, dinamakan **Dosir Kinerja**. Dosir ini dipegang oleh `sakip-orkestrator` sebagai hub, sementara skill lainnya membaca dan menulis ke bagian spesifik sesuai perannya.
