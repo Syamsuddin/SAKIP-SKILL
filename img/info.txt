@@ -1,0 +1,9 @@
+saya membangun 5 skill dengan satu tulang punggung kolaborasi berupa kontrak data bersama (saya sebut Dosir Kinerja — satu file JSON yang dibaca-tulis semua skill). Begini pembagian peran dan alur kerjanya:
+
+sakip-orkestrator (hub) — memegang kontrak Dosir Kinerja, peta siklus, referensi regulasi, dan rubrik LKE. Ini "konduktor" yang merutekan ke skill lain. Semua skill lain menunjuk ke sini agar regulasi & rubrik tidak diduplikasi.
+sakip-perencana — membangun rantai perencanaan: pohon kinerja/cascading, Renstra/Renja/PK, dan IKU/IKK SMART. Mengoptimalkan komponen Perencanaan (30%).
+sakip-pelaporan — kerangka pengukuran capaian + LKjIP yang menonjolkan analisis & pemanfaatan. Mengoptimalkan Pengukuran (30%) + Pelaporan (15%).
+sakip-evaluator — mesin penilai LKE: simulasi skor per sub-komponen, prediksi predikat, dan daftar gap berprioritas dengan estimasi poin yang menghalangi naik tingkat. Inilah fungsi skor.
+sakip-improver — penggerak loop: membaca daftar gap + rekomendasi LHE, menghasilkan rencana perbaikan tersekuens dengan target poin, lalu mengembalikan tugas ke perencana/pelaporan. Inilah yang membuat dokumen "terus diperbaiki".
+
+Alur kolaborasinya: perencana/pelaporan mengisi Dosir → evaluator menilai Dosir & menulis daftar gap → improver mengubah gap jadi rencana aksi & memicu siklus berikutnya. Loop ini persis meniru loop LHE→perbaikan di diagram.
